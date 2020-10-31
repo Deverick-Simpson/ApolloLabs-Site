@@ -13,8 +13,9 @@ page_sections:
         link_text: Services
       - link: "#team"
         link_text: Our Team 
-      - link: "#blog"
-        link_text: Blog
+    cta:
+      url: https://deverick.io
+      button_text: Blog
   - template: hero-banner-w-image
     block: hero-2
     slug: features
@@ -33,7 +34,7 @@ page_sections:
   - template: content-feature
     block: feature-1
     media_alignment: Left
-    slug: swap
+    slug: services
     headline:
       <strong>Pentesting<span class="light">&nbsp;</span></strong><span
       class="light">your Android and iOS Applications.</span>
@@ -55,10 +56,10 @@ page_sections:
       alt_text: Customize Blocks
   - template: 1-column-text
     block: one-column-1
-    slug: responsive
+    slug: team
     headline: Our Team
     content: |
-      Meet the team focused on improving your application 
+      Meet the Security Engineers focused on improving your applications.  Each one brings a unique story that we want to share with you.    
   - template: full-width-media-element
     block: media-1
     image: "/uploads/2018/06/21/theme.png"
@@ -68,8 +69,7 @@ page_sections:
     block: text-1
     headline: Contact Us
     content:
-      <p>uBuild is an open-source Jekyll based demo that doubles as a builder tool inside the Forestry content manager.</p><ol><li><p><a href="https://app.forestry.io/quick-start?repo=forestryio/ubuild-jekyll&provider=github&engine=jekyll">Import this demo in Forestry</a>.</p></li><li><p>Read <a href="https://forestry.io/blog/ubuild-a-new-theme-for-static-sites-using-blocks/">our
-      article</a> and create your own Blocks.</p></li><li><p>Add and customize the available Blocks and preview them as you go along.</p></li></ol>
+      <p>Reach out via one of our communication channels</p>
   - template: simple-footer
     block: footer-1
     content: Made with ❤︎

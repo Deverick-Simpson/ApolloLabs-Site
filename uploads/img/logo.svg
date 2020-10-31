@@ -7,9 +7,9 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="50in"
+   width="65in"
    height="7in"
-   viewBox="0 0 115.8227 14.98517"
+   viewBox="0 0 150.56951 14.98517"
    version="1.1"
    id="svg8"
    sodipodi:docname="logo.svg"
@@ -24,8 +24,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.18671698"
-     inkscape:cx="1464.3872"
-     inkscape:cy="493.21589"
+     inkscape:cx="3387.0833"
+     inkscape:cy="819.91355"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
@@ -59,14 +59,14 @@
     <text
        xml:space="preserve"
        style="font-size:17.9444px;line-height:1.25;font-family:'Painting With Chocolate';-inkscape-font-specification:'Painting With Chocolate';stroke-width:0.49715"
-       x="3.0730228"
-       y="14.299757"
+       x="3.6779487"
+       y="14.575836"
        id="text41"
        transform="scale(1.0681573,0.93619171)"><tspan
          sodipodi:role="line"
          id="tspan39"
-         x="3.0730228"
-         y="14.299757"
+         x="3.6779487"
+         y="14.575836"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.9444px;font-family:TimeBurner;-inkscape-font-specification:TimeBurner;stroke-width:0.49715">APOLLOLABS</tspan></text>
   </g>
 </svg>

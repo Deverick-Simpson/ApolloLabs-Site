@@ -73,7 +73,7 @@ page_sections:
         By applying extensive academical knowledge in practice, I carry out extensive penetration
         tests to make your code cry. The application is hardened by analyzing found weaknesses and
         proposing mitigations through consulting. - Finding the balance between security, usability,
-        and preformance takes an artist.
+        and performance takes an artist.
     - name: hashes4merkle
       slug: hashes4merkle
       image: /uploads/team/hashes4merkle/hashes4merkle.jpg
@@ -81,7 +81,7 @@ page_sections:
       email: deverick@apollolabs.io
       pgp_fingerprint: F3BC 56B4 6F54 A995 AE52 534F 2BE3 33A7 7646 64BE
       about: |-
-        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempora.
+        A digital nomad who enjoys poking at tech we find in our communities.  With a background in psychology and cyber security, I leverage real-world techniques to test your organization's infrastructure security.
   - template: 1-column-text
     block: block-one-column-1-social
     slug: contact

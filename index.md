@@ -1,6 +1,6 @@
 ---
 layout: blocks
-title: APOLLOLABS
+title: ApolloLabs
 date: 2020-10-30T23:00:00.000+00:00
 page_sections:
   - template: navigation-header-w-button

@@ -65,12 +65,20 @@ page_sections:
       slug: s4lv4ti0n
       image: /uploads/team/s4lv4ti0n/s4lv4ti0n.jpg
       name_secondary: Tomi Jerenko
-      email: s4lv4ti0n@apollolabs.com
+      email: s4lv4ti0n@apollolabs.io
       pgp_fingerprint: THIS ISSO MEFA KEPG PKEY 3C92 3D9F 6D5D ADDB 55F7
       # Max 300 characters
       about: |-
         Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempora.
-
+    - name: hashes4merkle
+      slug: hashes4merkle
+      image: /uploads/team/hashes4merkle/hashes4merkle.jpg
+      name_secondary: Deverick Simpson
+      email: deverick@apollolabs.io
+      pgp_fingerprint: F3BC 56B4 6F54 A995 AE52  534F 2BE3 33A7 7646 64BE
+      # Max 300 characters
+      about: |-
+        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempora.
   - template: 1-column-text
     block: block-one-column-1-social
     slug: contact

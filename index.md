@@ -4,7 +4,7 @@ title: APOLLOLABS
 date: 2020-10-30T23:00:00.000+00:00
 page_sections:
   - template: navigation-header-w-button
-    block: header-2
+    block: block-header-2
     logo: "/uploads/img/logo.svg"
     navigation:
       - link: "/"
@@ -12,12 +12,12 @@ page_sections:
       - link: "#services"
         link_text: Services
       - link: "#team"
-        link_text: Our Team 
+        link_text: Our Team
     # cta:
     #   url: https://deverick.io
     #   button_text: Blog
   - template: hero-banner-w-image
-    block: hero-2
+    block: block-hero-2
     slug: features
     logo-white: "/uploads/img/logo-white.svg"
     headline: <strong>Security First</strong>
@@ -32,7 +32,7 @@ page_sections:
       alt_text: Product Shot
     background_image: "/uploads/2018/06/21/hero-2-bg.png"
   - template: content-feature
-    block: feature-1
+    block: block-feature-1
     media_alignment: Left
     slug: services
     headline:
@@ -44,7 +44,7 @@ page_sections:
       image: "/uploads/2018/06/21/blocks-split.png"
       alt_text: uBuild Blocks Mock-Up
   - template: content-feature
-    block: feature-1
+    block: block-feature-1
     media_alignment: Right
     slug: customize
     headline:
@@ -54,37 +54,43 @@ page_sections:
     media:
       image: "/uploads/2018/06/21/edit.gif"
       alt_text: Customize Blocks
-  - template: 1-column-text
-    block: one-column-1
+
+  - block: team/base
     slug: team
     headline: Our Team
     content: |
-      Meet the Security Engineers focused on improving your applications.  Each one brings a unique story we want to share.    
-  - template: full-width-media-element
-    block: media-1
-    image: "/uploads/2018/06/21/theme.png"
-    caption: 
-    slug: blocks
+      Meet the Security Engineers focused on improving your applications. Each one brings an unique story we want to share.
+    members:
+    - name: s4lv4ti0n
+      slug: s4lv4ti0n
+      image: /uploads/team/s4lv4ti0n/s4lv4ti0n.jpg
+      name_secondary: Tomi Jerenko
+      email: s4lv4ti0n@apollolabs.com
+      pgp_fingerprint: THIS ISSO MEFA KEPG PKEY 3C92 3D9F 6D5D ADDB 55F7
+      # Max 300 characters
+      about: |-
+        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempora.
+
   - template: 1-column-text
-    block: one-column-1-social
+    block: block-one-column-1-social
     slug: contact
     headline: Contact Us
     content: |
       We look forward to understanding your needs and how we can help.
     github:
-      username: hashes4merkle           
+      username: hashes4merkle
     twitter:
-      username: hashes4merkle            
+      username: hashes4merkle
       hashtag: '@hashes4merkle'
     social:
-      name: Deverick Simpson                 
-      email: deverick@apollolabs.io          
+      name: Deverick Simpson
+      email: deverick@apollolabs.io
       links:
-        - https://twitter.com/hashes4merkle      
-        - https://github.com/hashes4merkle     
+        - https://twitter.com/hashes4merkle
+        - https://github.com/hashes4merkle
 
   # - template: simple-footer
-  #   block: footer-1
+  #   block: block-footer-1
   #   content: Made with ❤︎
 
 ---

@@ -1,0 +1,25 @@
+<div class="membercard" id="{{ member.slug | slugify }}">
+  <div class="membercard-avatar">
+    <img src="{{ member.image | relative_url }}" alt="{{ member.caption }}" loading="lazy">
+  </div>
+  <div class="membercard-details">
+    <div class="name">
+      <h2 class="primary">{{ member.name }}</h2>
+      {% if member.name_secondary %}
+      <h3 class="secondary">{{ member.name_secondary }}</h3>
+      {% endif %}
+    </div>
+    <div class="email">
+      <small>E-mail</small>
+      <h4 id="{{ member.name }}-email">{{ member.email }}</h4>
+    </div>
+    <div class="pgp-key">
+      <small>PGP Key Fingerprint</small>
+      <h4 id="{{ member.name }}-pgp-key">{{ member.pgp_fingerprint }}</h4>
+    </div>
+    <div class="about">
+      <small>About</small>
+      <div>{{ member.about }}</div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,13 @@
+<section id="{{ section.slug | slugify }}" class="block block-one-column-1">
+  <div class="container">
+    <div class="columns">
+      <div class="column">
+        <h1>{{ section.headline }}</h1>
+        <p>{{ section.content }}</p>
+      </div>
+    </div>
+    {% for member in section.members %}
+    {% include team/membercard.html %}
+    {% endfor %}
+  </div>
+</section>

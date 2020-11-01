@@ -705,3 +705,33 @@ body{
     background:#ffedbc;
     color:#333
 }
+
+/*
+    Team and membercard styling
+*/
+@media screen and (min-width:920px){
+    .membercard {
+        display: grid;
+        grid-template-columns: min-content auto;
+    }
+}
+.membercard {
+    align-items: center;
+    padding-top: 2.5rem;
+}
+.membercard-avatar {
+    display: flex;
+    justify-content: center;
+}
+.membercard-avatar img {
+    height: 300px;
+    width: 300px;
+}
+.membercard-details {
+    padding: 1rem;
+}
+.membercard-details .email,
+.membercard-details .pgp-key,
+.membercard-details .about{
+    padding-top: 10px;
+}

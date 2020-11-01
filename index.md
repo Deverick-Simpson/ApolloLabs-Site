@@ -1,6 +1,6 @@
 ---
 layout: blocks
-title: Homepage
+title: APOLLOLABS
 date: 2020-10-30T23:00:00.000+00:00
 page_sections:
   - template: navigation-header-w-button
@@ -13,9 +13,9 @@ page_sections:
         link_text: Services
       - link: "#team"
         link_text: Our Team 
-    cta:
-      url: https://deverick.io
-      button_text: Blog
+    # cta:
+    #   url: https://deverick.io
+    #   button_text: Blog
   - template: hero-banner-w-image
     block: hero-2
     slug: features
@@ -39,7 +39,7 @@ page_sections:
       <strong>Pentesting<span class="light">&nbsp;</span></strong><span
       class="light">your Android and iOS Applications.</span>
     content:
-      Understand the limitations of your app.  We provide easy to read reports so your team can stay ahead.
+      Understand the limitations of your app.  We provide easy to read reports so your team can stay ahead of threats.
     media:
       image: "/uploads/2018/06/21/blocks-split.png"
       alt_text: uBuild Blocks Mock-Up
@@ -59,18 +59,32 @@ page_sections:
     slug: team
     headline: Our Team
     content: |
-      Meet the Security Engineers focused on improving your applications.  Each one brings a unique story that we want to share with you.    
+      Meet the Security Engineers focused on improving your applications.  Each one brings a unique story we want to share.    
   - template: full-width-media-element
     block: media-1
     image: "/uploads/2018/06/21/theme.png"
     caption: 
     slug: blocks
-  - template: detail-content
-    block: text-1
+  - template: 1-column-text
+    block: one-column-1-social
+    slug: contact
     headline: Contact Us
-    content:
-      <p>Reach out via one of our communication channels</p>
-  - template: simple-footer
-    block: footer-1
-    content: Made with ❤︎
+    content: |
+      We look forward to understanding your needs and how we can help.
+    github:
+      username: hashes4merkle           
+    twitter:
+      username: hashes4merkle            
+      hashtag: '@hashes4merkle'
+    social:
+      name: Deverick Simpson                 
+      email: deverick@apollolabs.io          
+      links:
+        - https://twitter.com/hashes4merkle      
+        - https://github.com/hashes4merkle     
+
+  # - template: simple-footer
+  #   block: footer-1
+  #   content: Made with ❤︎
+
 ---

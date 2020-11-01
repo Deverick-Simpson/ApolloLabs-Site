@@ -1,0 +1,39 @@
+<section id="{{ section.slug | slugify }}" class="block block-one-column-1">
+  <div class="container">
+    <div class="columns">
+      <div class="column">
+        <h1>{{ section.headline }}</h1>
+        <p>{{ section.content }}</p>
+        <!-- {% if site.theme_mode == "dual" %}
+        <span id="mode-toggle-wrapper">
+          {% include mode-toggle.html %}
+        </span>
+        <span class="icon-border"></span>
+        {% endif %} -->
+      
+        {% for entry in site.data.contact %}
+          {% capture url %}
+            {%- if entry.type == 'github' -%}
+              https://github.com/{{ section.github.username }}
+            {%- elsif entry.type == 'twitter' -%}
+              https://twitter.com/{{ section.twitter.username }}
+            {%- elsif entry.type == 'email' -%}
+              {% assign email = section.social.email | split: '@' %}
+              javascript:window.open('mailto:' + ['{{ email[0] }}','{{ email[1] }}'].join('@'))
+            {%- elsif entry.type == 'rss' -%}
+              {{ "/feed.xml" | relative_url }}
+            {%- else -%}
+              {{ entry.url }}
+            {%- endif -%}
+          {% endcapture %}
+      
+          {% if url != '' %}
+          <a href="{{ url }}" {% unless entry.noblank %}target="_blank"{% endunless %}>
+            <i class="{{ entry.icon }}"></i>
+          </a>
+          {% endif %}
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>

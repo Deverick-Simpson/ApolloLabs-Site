@@ -78,10 +78,12 @@ page_sections:
       slug: hashes4merkle
       image: /uploads/team/hashes4merkle/hashes4merkle.jpg
       name_secondary: Deverick Simpson
+      website-name: Deverick.io
+      website-link: https://deverick.io  
       email: deverick@apollolabs.io
       pgp_fingerprint: F3BC 56B4 6F54 A995 AE52 534F 2BE3 33A7 7646 64BE
       about: |-
-        A digital nomad who enjoys poking at tech we find in our communities.  With a background in psychology and cyber security, I leverage real-world techniques to test your organization's infrastructure security.
+        A digital nomad who enjoys poking at tech found in our communities.  With a background in psychology and cyber security, I leverage real-world techniques to test your organization's infrastructure security.
   - template: 1-column-text
     block: block-one-column-1-social
     slug: contact

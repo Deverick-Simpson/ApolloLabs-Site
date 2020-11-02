@@ -9,9 +9,15 @@
       <h3 class="secondary">{{ member.name_secondary }}</h3>
       {% endif %}
     </div>
+    {% if member.website-name %}
+    <div class="website">
+      <small>Website</small>
+    <h4><a href="{{ member.website-link }}">{{ member.website-name }}</a></h4>
+    </div>
+    {% endif %}
     <div class="email">
       <small>E-mail</small>
-      <h4 id="{{ member.name }}-email">{{ member.email }}</h4>
+      <h4><a href = "mailto: {{ member.email}}">{{ member.email}}</a></h4>
     </div>
     <div class="pgp-key">
       <small>PGP Key Fingerprint</small>

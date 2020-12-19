@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: apollolabs.io
+Token: 39f8fa1fff3e89c5f92523dbcbf89871e36bc18159331d44f3131cae1bbac2bd
